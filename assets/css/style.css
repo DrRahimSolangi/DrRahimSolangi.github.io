@@ -5,3 +5,45 @@ html {
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#headerLeft {
+  background-color: #022147;
+}
+#header {
+  height: 878px;
+  width: 1800px;
+  margin: 60px 60px;
+}
+
+.headingText {
+  color: white;
+  font-size: 80px;
+  margin-top: 15%;
+  text-align: center;
+}
+.underline {
+  border-bottom: solid 1px #ee2938;
+  width: 77px;
+}
+.headingSubText {
+  color: white;
+  font-family: "Muli", Georgia, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.readMore {
+  font-family: "Muli", Georgia, sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  width: 157px;
+  height: 48px;
+  border: none;
+  color: white;
+  background-color: #ee2938;
+  text-align: center;
+}
+
+.headingImg {
+  width: 95%;
+  height: auto;
+}
