@@ -14,6 +14,9 @@ body {
   margin: 60px 60px;
 }
 
+#about {
+}
+
 .headingText {
   color: white;
   font-size: 80px;
@@ -42,8 +45,45 @@ body {
   background-color: #ee2938;
   text-align: center;
 }
-
+.positionRelative {
+  position: relative;
+}
 .headingImg {
   width: 95%;
   height: auto;
+}
+.aboutImg {
+  width: 100%;
+}
+.sectionTitle {
+  color: #022147;
+  font-size: 60px;
+}
+.aboutSindhiTopImg {
+  width: 100%;
+  top: 70%;
+  right: 48px;
+  z-index: 1;
+  position: absolute;
+}
+.aboutContent {
+  color: #777777;
+  font-family: "Muli", Georgia, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.specialAboutTitle {
+  position: absolute;
+  color: #adadad;
+  font-size: 120pt;
+  font-weight: 700;
+  font-family: "Poppins", Georgia, sans-serif;
+  bottom: 75%;
+  z-index: -1;
+  opacity: 0.07;
+}
+
+.sectionPadding {
+  padding-top: 50px;
+  padding-bottom: 200px;
 }
