@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
 }
 #headerLeft {
   background-color: #022147;
@@ -16,6 +17,7 @@ body {
 
 #AboutLife {
   background-color: #fafafa;
+  padding: 60px 0px;
 }
 
 .headingText {
@@ -112,8 +114,8 @@ body {
   margin-bottom: 26px;
 }
 .activeBTN {
-  color: white;
-  background-color: #022147;
+  color: white !important;
+  background-color: #022147 !important;
 }
 .aboutLifeSecond {
   width: 100%;
@@ -128,4 +130,30 @@ body {
   position: absolute;
   top: 66%;
   left: 86%;
+}
+.WMYheading {
+  margin-top: 15px;
+  color: #022147;
+  font-size: 20pt;
+}
+.tinyBTN {
+  margin-right: 20px;
+  border: none;
+  color: #022147;
+  background-color: #f3f3f0;
+}
+.speech {
+  font-size: 18px;
+  color: #ee2938;
+}
+
+.WMYDecoration1 {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+.WMYDecoration2 {
+  position: absolute;
+  top: 60%;
+  right: 2%;
 }
