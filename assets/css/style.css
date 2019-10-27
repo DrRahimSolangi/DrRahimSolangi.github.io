@@ -19,6 +19,10 @@ body {
   background-color: #fafafa;
   padding: 60px 0px;
 }
+#footer {
+  background-color: #fafafa;
+  padding: 90px 0px;
+}
 
 .headingText {
   color: white;
@@ -156,4 +160,13 @@ body {
   position: absolute;
   top: 60%;
   right: 2%;
+}
+.email {
+  font-family: "Muli", Georgia, sans-serif;
+  font-size: 20pt;
+  font-weight: 300;
+}
+.footerDecoration {
+  position: absolute;
+  top: 0;
 }
