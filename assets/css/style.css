@@ -87,3 +87,9 @@ body {
   padding-top: 50px;
   padding-bottom: 200px;
 }
+
+.aboutDecoration {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
